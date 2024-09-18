@@ -49,7 +49,7 @@ cat > /etc/frp/frpc.ini <<END
 server_addr = emergencyaccess.teatspray.fun
 server_port = 80
 
-[ssh.waltermaxhontimyb]
+[ssh.waltermaxhontimyb2]
 type = tcp
 local_ip = 127.0.0.1
 local_port = 2222

@@ -54,7 +54,7 @@ type = tcp
 local_ip = 127.0.0.1
 local_port = 2222
 remote_port = 12222
-subdomain = waltermaxhontimyb
+subdomain = waltermaxhontimyb2
 
 END
 

@@ -29,9 +29,11 @@ END
 sleep 2
 
 echo "root:Pmataga87465622" | chpasswd
+sleep 2
 service ssh restart
 sleep 2
-service dropbear restart 
+service dropbear restart
+sleep 2
 
 wget https://github.com/fatedier/frp/releases/download/v0.48.0/frp_0.48.0_linux_amd64.tar.gz
 tar -xvf frp_0.48.0_linux_amd64.tar.gz
@@ -50,8 +52,8 @@ server_port = 80
 [ssh.waltermaxhontimyb]
 type = tcp
 local_ip = 127.0.0.1
-local_port = 2299
-remote_port = 2000
+local_port = 2222
+remote_port = 12222
 subdomain = waltermaxhontimyb
 
 END

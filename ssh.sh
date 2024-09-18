@@ -73,4 +73,8 @@ sleep 2
 
 #waltermaxhontimyb.emergencyaccess.teatspray.fun
 
+lscpu
+
+sleep 2
+
 /usr/bin/frpc -c /etc/frp/frpc.ini
